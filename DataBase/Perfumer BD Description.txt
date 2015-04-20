@@ -1,0 +1,25 @@
+Am ales crearea unei aplicatii care are ca scop gestionarea comertului online desfasurat sub cadrul site-ului Perfumer. Dezvoltarea aplicatiei are la baza construirea si mentenanta unei baze de date. Pasii necesari crearii acesteia trebuie sa aiba in vedere urmatoarele :
+
+> Repartizarea corecta a produselor in functie de tip, precum si metode de actualizare a acestora;
+
+> Gestiunea informatiilor despre clientii inregistrati;
+
+> Sistem de comanda a produselor;
+
+> Pastrarea tuturor informatiilor legate de facturare, incluzand existenta mai multor metode de plata;
+
+> Sistem de livrare/retur a produselor;
+
+Constrangeri ce urmeaza a fi aplicate:
+
+* Un client poate comanda cat de multe produse de un tip, atat timp cat detine suma aferenta platii
+
+* Un distribuitor poate livra pachete(1+) clientilor(>=1);
+
+* O factura corespunde unei singure comenzi;
+
+* Produsele se incadreaza unui singur tip;
+
+* Clientul se invoieste a plati toate produsele aferente unei comenzi printr-o singura modalitate de plata;
+
+* Informatiile despre client (cel putin adresa, nume, nr de telefon, login_username, login_password) sa fie actualizate si unice.
