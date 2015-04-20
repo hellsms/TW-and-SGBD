@@ -1,25 +1,29 @@
-Am ales crearea unei aplicatii care are ca scop gestionarea comertului online desfasurat sub cadrul site-ului Perfumer. Dezvoltarea aplicatiei are la baza construirea si mentenanta unei baze de date. Pasii necesari crearii acesteia trebuie sa aiba in vedere urmatoarele :
+  Am ales crearea unei aplicatii care are ca scop gestionarea comertului online desfasurat sub cadrul site-ului Perfumer.
+Dezvoltarea aplicatiei are la baza construirea si mentenanta unei baze de date.
 
-> Repartizarea corecta a produselor in functie de tip, precum si metode de actualizare a acestora;
 
-> Gestiunea informatiilor despre clientii inregistrati;
+  Pasii necesari crearii acesteia trebuie sa aiba in vedere urmatoarele :
 
-> Sistem de comanda a produselor;
+      > Repartizarea corecta a produselor in functie de tip, precum si metode de actualizare a acestora;
 
-> Pastrarea tuturor informatiilor legate de facturare, incluzand existenta mai multor metode de plata;
+      > Gestiunea informatiilor despre clientii inregistrati;
 
-> Sistem de livrare/retur a produselor;
+      > Sistem de comanda a produselor;
 
-Constrangeri ce urmeaza a fi aplicate:
+      > Pastrarea tuturor informatiilor legate de facturare, incluzand existenta mai multor metode de plata;
 
-* Un client poate comanda cat de multe produse de un tip, atat timp cat detine suma aferenta platii
+      > Sistem de livrare/retur a produselor;
 
-* Un distribuitor poate livra pachete(1+) clientilor(>=1);
+  Constrangeri ce urmeaza a fi aplicate:
 
-* O factura corespunde unei singure comenzi;
+      * Un client poate comanda cat de multe produse de un tip, atat timp cat detine suma aferenta platii
 
-* Produsele se incadreaza unui singur tip;
+      * Un distribuitor poate livra pachete(1+) clientilor(>=1);
 
-* Clientul se invoieste a plati toate produsele aferente unei comenzi printr-o singura modalitate de plata;
+      * O factura corespunde unei singure comenzi;
 
-* Informatiile despre client (cel putin adresa, nume, nr de telefon, login_username, login_password) sa fie actualizate si unice.
+      * Produsele se incadreaza unui singur tip;
+
+      * Clientul se invoieste a plati toate produsele aferente unei comenzi printr-o singura modalitate de plata;
+
+      * Informatiile despre client (cel putin adresa, nume, nr de telefon, login_username, login_password) sa fie actualizate si unice.
