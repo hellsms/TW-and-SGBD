@@ -72,7 +72,7 @@ product_name CHAR(20) NOT NULL,
 
 product_price NUMBER(10) CHECK(product_price>0),
 
-product_color CHAR(20) NOT NULL,
+product_review CHAR(20) NOT NULL,
 
 product_size CHAR(20) NOT NULL,
 
