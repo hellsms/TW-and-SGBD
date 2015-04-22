@@ -16,7 +16,7 @@ Dezvoltarea aplicatiei are la baza construirea si mentenanta unei baze de date.
 
   Constrangeri ce urmeaza a fi aplicate:
 
-      * Un client poate comanda cat de multe produse de un tip, atat timp cat detine suma aferenta platii
+      * Un client poate comanda cat de multe produse de un tip, atat timp cat detine suma aferenta platii;
 
       * Un distribuitor poate livra pachete(1+) clientilor(>=1);
 
