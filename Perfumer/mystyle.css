@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+html{
+background-color:#b6dccb
+
+}
+.h{
+height:300px;
+background-image:url("chanel.jpg");
+text-align:left;
+font-size: 30pt;
+font-family: Edwardian Script ITC,Verdana, Helvetica, sans-serif;
+padding-top:0px;
+margin:0px;
+padding-left:150pt;
+padding-left:150pt;
+}
+.container{
+border-style :  solid ;
+border-color: #black ;
+border-width: 900 px;
+height:auto;
+margin-top:0px;
+margin-left:200px;
+margin-right:200px;
+margin-bottom:auto;
+}
+.header{
+position:relative;
+height:200 px;
+width:900px;
+border: 1 px solid #green;
+}
+.menubar{
+height:50px;
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom:auto;
+border-type:solid ;
+border-color:#black ;
+background-color:black;
+}
+.lm{
+float:left-side;
+width:150 px;
+background-color:red;
+margin:0px 850px 0px 0px;
+}
+.rm{
+float:left-side;
+width:150 px;
+border-type: solid ;
+border-color:black;
+background-color:yellow;
+margin:0px;
+
+}
+.mainbody{
+display:block;
+      position:relative;
+   
+      padding:1px 4px 1px 4px;
+   background-color:blue;
+      margin:0px 0 0px 0;
+height:110px;
+   
+      }
+   
+}
+.footer{
+clear:both;
+height:50px;
+border:1px solid #yellow;
+}
+marquee{
+color:white;
+height:25pt;
+background-color:black;
+}

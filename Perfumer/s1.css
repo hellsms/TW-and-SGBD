@@ -1,0 +1,64 @@
+
+body {
+   
+    background-color:#b6dccb;
+}
+
+p {
+    padding: 0px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#header {
+    font-size: 50pt;
+    font-family: Edwardian Script ITC,Verdana, Helvetica, sans-serif;
+    float: left;
+    height: 200px;
+    width: 1000px;
+	margin:0px;
+	padding:0px;
+	background-image:url("images/chanel.jpg");
+    
+}
+
+#navigation {
+    float: left;
+    height: 40px;
+    width: 1000px;
+    background-color: black;
+}
+
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 590px;
+	height:400px;
+}
+
+#leftcolumn {
+border-right-color:black;
+background:white;
+height:400px;
+width: 150px;
+float: left;
+}
+
+#rightcolumn {
+    background: white;
+    width: 260px;
+    float: left;
+	height:400px;
+}
+
+#footer {
+    height: 40px;
+    width: 1000px;
+    background: #33FF66;
+    clear: both;
+}
+
+

@@ -1,0 +1,117 @@
+
+body {
+    background-image:url("../images/background.jpg");
+	background-repeat:no-repeat;
+	
+}
+
+p {
+    padding: 0px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+#tcenter{
+   text-align:center;
+   align:center;
+}
+#header {
+    font-size: 70pt;
+    font-family:  Sans-serif;
+	color:#336633;
+	text-align:center;
+    float: left;
+    height: 200px;
+    width: 1000px;
+	margin:0px;
+	padding:0px;
+}
+
+#navigation {
+    float: left;
+    height: 40px;
+    width: 1000px;
+    background-color: black;
+}
+#navigation{
+    position:relative;
+    height:43px;
+    font-size:14px;
+    text-transform:uppercase;
+    background:black url("images/time4bed_bg.gif") repeat-x bottom left;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+#navigation ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    width:auto;
+    float:left;
+}
+#navigation ul li{
+    display:block;
+	float:left;
+	margin:0 2px;
+}
+#navigation ul li a{
+    display:block;
+	float:left;
+	color:#ffdab6;
+	text-decoration:none;
+	padding:0 0 0 25px;
+	height:43px;
+	line-height:50px;
+}
+#navigation ul li a span{
+    display:block;
+	float:left;
+	padding:0 25px 0 0;
+	height:31px;
+	width:auto;}
+#navigation ul li a:hover{
+    color:#fff;
+}
+#navigation ul li a:hover span{
+    display:block;
+	cursor:pointer;
+}
+#navigation ul li a.current,#navigation ul li a.current:hover{
+    color:#894d12;
+	background:transparent url("images/time2bed_left-ON.gif") no-repeat top left;
+}
+#navigation ul li a.current span{
+    background:transparent url("images/time2bed_right-ON.gif") no-repeat top right;
+	height:43px;
+}
+
+#content {
+    float: left;
+    background-color:white;
+    width: 600px;
+	height:500px;
+}
+
+#leftcolumn {
+    background-color:white;
+    width: 150px;
+    float: left;
+}
+
+#rightcolumn {
+    background-color:white;
+    width: 250px;
+    float: right;
+}
+
+#footer {
+    background-color:white;
+    height: 40px;
+    width: 1000px;
+    clear: both;
+}#error{
+color:red;
+}
+
